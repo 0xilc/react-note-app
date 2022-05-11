@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Header, Notes, EditNote , CreateNote} from "./components";
+import { useState , useEffect} from 'react';
+import { BrowserRouter, Route , Routes} from 'react-router-dom';
+import "./style/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+
+    const [keyword,setKeyword] = useState();
+
+    return(
+        <BrowserRouter>
+            <div className="main" >
+                <Header/>
+                <Routes>
+                    <Route path="/" element={<Notes/>}></Route>
+                    <Route path="editnote/:id" element={<EditNote/>}></Route>
+                    <Route path="createnote" element={<CreateNote/>}></Route>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
+
 }
+
 
 export default App;
