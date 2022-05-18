@@ -9,4 +9,4 @@ Simple note taking app with features :
 
 This app is not responsive and competible with all browsers.
 
-Access Link : https://0xilc.github.io/react-note-app/
+### Access Link : https://0xilc.github.io/react-note-app/
