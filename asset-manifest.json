@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-note-app/static/css/main.52f61136.css",
+    "main.js": "/react-note-app/static/js/main.4d6c298a.js",
+    "static/media/Roboto-Medium.ttf": "/react-note-app/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Thin.ttf": "/react-note-app/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
+    "static/media/Roboto-Regular.ttf": "/react-note-app/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/react-note-app/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/Roboto-Light.ttf": "/react-note-app/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "index.html": "/react-note-app/index.html",
+    "main.52f61136.css.map": "/react-note-app/static/css/main.52f61136.css.map",
+    "main.4d6c298a.js.map": "/react-note-app/static/js/main.4d6c298a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52f61136.css",
+    "static/js/main.4d6c298a.js"
+  ]
+}
