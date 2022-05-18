@@ -5,7 +5,7 @@ Simple note taking app with features :
   - Color change
   - Edit
   - Delete
-  - Search ( Not yet)
+  - Search ( Not ready )
 
 This app is not responsive and competible with all browsers.
 
