@@ -7,6 +7,6 @@ Simple note taking app with features :
   - Delete
   - Search ( Not ready )
 
-This app is not responsive and competible with all browsers.
+This app is not responsive and not competible with all browsers.
 
 ### Access Link : https://0xilc.github.io/react-note-app/
